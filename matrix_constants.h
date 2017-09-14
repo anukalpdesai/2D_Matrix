@@ -7,7 +7,7 @@
 #define PRINT(msg) printf("\n%s\n", msg);
 
 void print_matrix(int matrix[ROW][COL], int row, int col);
-int search_matrix(int matrix[ROW][COL], int num, int row, int col);
+int search_matrix_1(int matrix[ROW][COL], int num, int row, int col);
 
 
 #endif // MATRIX_CONSTANTS_H_INCLUDED

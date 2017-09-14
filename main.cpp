@@ -15,7 +15,7 @@ int main()
 
     PRINT("Enter number to search in matrix: ");
     scanf("%d", &num);
-    if(search_number(matrix, num, row, col) == 1)
+    if(search_number_2(matrix, num, row, col) == 1)
     {
         PRINT("Number Found.");
     }
